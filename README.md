@@ -1,5 +1,7 @@
 # Frontend
 #### The Agenda of this project 
+1. Build Docker file
+2. 
 ##### Build Docker File :
 - Install Docker in your local ubuntu
 - Develope the Docker file by installing the Java and Apache Tomcat (webserver) - Find the Dockerfile in the code section
