@@ -41,7 +41,7 @@
 - sudo docker container commit e117e2c00260 tomcat_core:latest (commit tag to your docker)
 - sudo docker container ls (List the running containers)
 - sudo docker image tag tomcat_core:latest dockhubprivate.azurecr.io/username/tomcat_core:latest (tagging the container to push the image to ACR)
-  - eg : docker tag <imageId or imageName> <hostname>:<repository-port>/<image>:<tag>**
+  - eg : docker tag <imageId or imageName> <hostname>:<repository-port>/<image>:<tag>
   - eg : docker tag af340544ed62 example.com:18444/hello-world:mytag
 - sudo docker image push dockhubprivate.azurecr.io/username/tomcat_core:latest (Pushing the local repo to ACR)
 - sudo docker ps (List the running conatiners with details)
