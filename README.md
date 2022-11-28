@@ -36,7 +36,7 @@
 - sudo docker container run -it -d --name frontendconatiner -p 8081:8080 username/tomcat_core (run the docker conatiner)
 - sudo docker cp loacl to dockerid:path (copy to and forth files from docker to local)
 - sudo az login (Azure Login)
-- sudo acr login --name (ACR authentication)
+- sudo az acr login --name (ACR authentication)
 - az acr show --name dockhubprivate.azurecr.io --query loginServer --output table (Displays the ACR name)
 - sudo docker container commit e117e2c00260 tomcat_core:latest (commit tag to your docker)
 - sudo docker container ls (List the running containers)
