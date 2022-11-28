@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-MAINTAINER narlavenkatanagabharani@outlook.com
+MAINTAINER username@domain.com
 
 RUN mkdir /opt/tomcat
 
