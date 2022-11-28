@@ -1,7 +1,11 @@
 # Frontend
 #### The Agenda of this project 
 1. Build Docker file
-2. 
+2. Build the Docker Image
+3. Run the cotainer
+4. Push the Docker image to public/private 
+5. Build the AKS infra
+6. Consume the Image from ACR in AKS
 ##### Build Docker File :
 - Install Docker in your local ubuntu
 - Develope the Docker file by installing the Java and Apache Tomcat (webserver) - Find the Dockerfile in the code section
