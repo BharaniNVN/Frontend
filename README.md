@@ -1,2 +1,5 @@
 # Frontend
-#### This repo is for developing webpages and Integrating with Docker and AKS to publish in the internet.
+##### The Agenda of this project :
+- Develope the Docker file by installing the Java and Apache Tomcat (webserver)
+
+
