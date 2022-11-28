@@ -12,10 +12,10 @@
 - Test whether you are able to access your web content (http://ipaddress:port/myapp)
 
 ###### examples of java & curl installation in ubuntu
- *RUN sudo apt install default-jdk*
- *RUN sudo apt install default-jre*
- *RUN java -version*
- *RUN apt-get install curl*
+ *RUN sudo apt install default-jdk
+ *RUN sudo apt install default-jre
+ *RUN java -version
+ *RUN apt-get install curl
 
 ##### Push the Docker Image to Public and Private Registries :
 - We can push the local Docker image to Docker hub public registry for resuable purpose
