@@ -46,3 +46,7 @@
 - sudo docker ps -a (List all the containers)
 - sudo start frontendconatiner <= containername (Start the created container)
 - sudo docker stop frontendconatiner (stop the container)
+
+###### Useful Links 
+https://www.middlewareinventory.com/blog/docker-tomcat-example-dockerfile-sample/
+https://stackoverflow.com/questions/47223280/docker-containers-can-not-be-stopped-or-removed-permission-denied-error
