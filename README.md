@@ -34,7 +34,7 @@
 - vim dockerfile (Build your Docker Image with the requirements)
 - sudo docker build -t username/tomcat . (-t is tag we are using for image; username/tomcat is local repo)
 - sudo docker container run -it -d --name frontendconatiner -p 8081:8080 username/tomcat_core (run the docker conatiner)
-- sudo docker cp loacl to dockerid:path (copy to and forth files from docker to local)
+- sudo docker cp local to dockerid:path (copy to and forth files from docker to local)
 - sudo az login (Azure Login)
 - sudo az acr login --name (ACR authentication)
 - az acr show --name dockhubprivate.azurecr.io --query loginServer --output table (Displays the ACR name)
