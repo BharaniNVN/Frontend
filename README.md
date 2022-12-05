@@ -49,6 +49,6 @@
 - sudo docker stop frontendconatiner (stop the container)
 
 ###### Useful Links 
-https://www.middlewareinventory.com/blog/docker-tomcat-example-dockerfile-sample/
-https://stackoverflow.com/questions/47223280/docker-containers-can-not-be-stopped-or-removed-permission-denied-error
-https://learn.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli?tabs=azure-cli
+- https://www.middlewareinventory.com/blog/docker-tomcat-example-dockerfile-sample/
+- https://stackoverflow.com/questions/47223280/docker-containers-can-not-be-stopped-or-removed-permission-denied-error
+- https://learn.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli?tabs=azure-cli
