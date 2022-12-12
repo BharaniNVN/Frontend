@@ -38,7 +38,7 @@
 - sudo az login (Azure Login)
 - sudo az acr login --name (ACR authentication)
 - az acr show --name dockhubprivate.azurecr.io --query loginServer --output table (Displays the ACR name)
-- sudo docker container commit e117e2c00260 tomcat_core:latest (commit tag to your docker)
+- sudo docker container commit e117e2c00260 tomcat_core:latest (commit tag to your docker) (It can be useful to commit a container’s file changes or settings into a new image. This allows you to debug a container by running an interactive shell)
 - sudo docker container ls (List the running containers)
 - sudo docker image tag tomcat_core:latest dockhubprivate.azurecr.io/username/tomcat_core:latest (tagging the container to push the image to ACR)
   - eg : docker tag af340544ed62 example.com:18444/hello-world:mytag
