@@ -3,9 +3,11 @@
 1. Build Docker file
 2. Build the Docker Image
 3. Run the cotainer
-4. Push the Docker image to public/private 
+4. Push the Docker image to public/private repo
 5. Build the AKS infra
 6. Consume the Image from ACR in AKS
+7. Build and Deploy the Deployment & service YAML files (Building objects in AKS)
+8. Publish your App
 ##### Build Docker File :
 - Install Docker in your local ubuntu
 - Develope the Docker file by installing the Java and Apache Tomcat (webserver) - Find the Dockerfile in the code section
