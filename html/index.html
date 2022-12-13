@@ -1,1 +1,42 @@
 
+<!DOCTYPE html> <!--declaration defines that this document is an HTML5 document-->
+<html lang="en-US"> <!--lang attribute inside the <html> tag, to declare the language of the Web page-->
+    <head> 
+        <link rel="stylesheet" href="form.css">
+        <title> Login form </title>
+        <link rel="icon" type="image/x-icon" href="form.ico">
+    </head>
+    <body>
+    <h2 style = text-align:center>CITIUS Tech Job Application Login</h2>
+
+        <form autocomplete="on">
+        <fieldset style="display: block;height: 50%;width: 50%;text-align: center;">
+          <legend>New user Registration</legend>
+          <label for="fname"></label><br>
+          <input type="text" id="fname" name="fname" placeholder ="FirstName" autofocus required><br>
+          <label for="lname"></label><br>
+          <input type="text" id="lname" name="lname" placeholder="LastName" autofocus required><br>
+          <label for="email"></label><br>
+          <input type="text" id="email" name="email" placeholder="Email" autofocus required><br>
+          <label for="pwd"></label><br>
+          <input type="password" id="pwd" name="pwd" placeholder="Enter Password" autofocus required><br><br>
+          <label for="files">Drop Resume :</label>
+          <input type="file" id="files" name="files" multiple> <br><br>
+          <button type="button" onclick="alert('Application Submitted! All the best.')">Submit</button>
+          </fieldset>
+        </form>   
+        <br>
+        <br>
+        <form autocomplete="on">
+            <fieldset style="display: block;height: 50%;width: 50%;text-align: center;">
+              <legend>Existing User Login</legend>
+              <label for="email"></label><br>
+              <input type="text" id="email" name="email" placeholder="Email" required autofocus><br>
+              <label for="pwd"></label><br>
+              <input type="password" id="pwd" name="pwd" placeholder="Enter Password" required autofocus><br><br>
+              <button type="button" onclick="alert('You are login is successfull')">Submit</button>
+              </fieldset>
+            </form>     
+    
+    </body>
+</html>    
